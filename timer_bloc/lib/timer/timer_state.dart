@@ -37,10 +37,5 @@ class TimerRunPause extends TimerState {
 }
 
 class TimerRunComplete extends TimerState {
-  TimerRunComplete(int duration) : super(duration);
-
-  @override
-  String toString() {
-    return 'TimerRunComplete {duration: $duration}';
-  }
+  const TimerRunComplete() : super(0);
 }
